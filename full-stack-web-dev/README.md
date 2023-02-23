@@ -221,16 +221,26 @@ HTML을 의미론적(시맨틱)으로 작성해야 하는 이유는
 <img src="https://content.codecademy.com/courses/updated_images/SemanticVSNonSemantic_Diagram_Updated_1.svg">
 왼쪽이 Non-Semantic HTML 오른쪽이 Semantic
 div 태그를 용도에 따라 다음 아래 태그들로 전환하는 게 좀 더 semantic 함.
+
 - header 태그 -> 초반 도입 내용, 인덱스 칸
+
 - nav 태그 -> 링크 내용(목차, 색인, 인덱스)
+
 - main 태그 -> 본내용
+
 - footer 태그 -> 마무리 내용, 출처(레퍼런스), contacts 정보
+
 - section 태그 -> 도큐먼트의 일부(챕터 단위, 부분 단위)
+
 - article 태그 -> 의미 있는 텍스트 단락들 묶는 태그(독자가 읽고 이해하는 부분) 보통 주내용
+
 - aside 태그 -> 보조 내용으로, 추가 정보 덧붙이며 주내용 보조하는 역할하는 내용
+
 - figure 태그 -> 다이어그램, 코드 엘리먼트, 이미지, 일러스트 감싸는 태그
     - figcaption 태그 -> figure 태그 안에서 이미지 설명하는 메시지 들어감. 이미지와 함께 움직이고 이미지 바로 근처에 있도록 하는 메시지
+
 - audio 태그 -> audio 콘텐츠(`<source src="" type="audio/mp3">`) 담는 태그, controls 속성은 컨트롤 부분을 디스플레이함. 
+
 - video 태그 -> 비디오 콘텐츠 담는 태그
     - controls 속성
     - autoplay 속성
